@@ -3,6 +3,7 @@ package com.qiangxu.logtrace
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.RelativeLayout
+import android.widget.ImageView
 import android.widget.TextView
 
 class MainActivity : AppCompatActivity() {
@@ -14,6 +15,7 @@ class MainActivity : AppCompatActivity() {
         val test = TextView(this)
 
         val relativeLayout = RelativeLayout(this)
+        val imageview = ImageView(this)
 
     }
 }
